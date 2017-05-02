@@ -1,0 +1,14 @@
+{
+  "name": "header-parser",
+  "version": "0.1.0",
+  "description": "Express + Heroku Boilerplate",
+  "main": "index.js",
+  "scripts": {
+      "start": "node server.js"
+  },
+  "author": "Chris Isler <christopherisler1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
