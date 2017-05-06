@@ -4,14 +4,13 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <p></p>
+        <p style="font-family: monospace"></p>
 
         <script>
             const obj = {
                 ipaddress: null,
                 language: navigator.language,
-                software: navigator.appVersion,
-                userAgent: navigator.userAgent
+                software: navigator.platform,
             };
             // VanillaJS is the best JS framework.
             document.querySelector('p').textContent = JSON.stringify(obj);
